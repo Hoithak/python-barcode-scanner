@@ -2,15 +2,13 @@
 
 ## Price finding runs on Raspberry Pi and works with Chromis POS (open source)
 
+![image](demo.gif)
+
 This software can scan barcodes, search through a MySQL database, and display the search results in text format along with product pictures. The project involved the following technologies:
 * Image processing: OpenCV-Python, Pillow
 * Barcode reader: pyzbar
 * Database connector: mysql-connector
 * User interface: PySimpleGUI
-
-
-## Watch the video
-[demo](https://youtu.be/V8kfelPyRPI)
 
 
 ## Setup
@@ -34,4 +32,6 @@ pip install Pillow
 - Search Price: Scan the barcode or enter the 6-digit product code.
 - Exit: enter '666666'
 
-
+## How to tweak this project
+- Optimize performance
+- Use laser barcode scanner
