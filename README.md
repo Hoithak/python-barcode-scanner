@@ -31,6 +31,7 @@ pip install Pillow
 ## How to use
 - Search Price: Scan the barcode or enter the 6-digit product code.
 - Exit: enter '666666'
+- The screen will turn off automatically when motion is detected, and it will turn back on again
 
 ## How to tweak this project
 - Optimize performance
